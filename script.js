@@ -1,23 +1,10 @@
 "use strict";
 
-///////////////////////////////////////
-
-/* 
-ЗАДАЧА: 
-Создайте игру в угадай число.
-
-
-Удачи)
-*/
 //Переменные
 const checkBtn = document.querySelector('.check');
 const againBtn = document.querySelector('.again')
 let score = 20;
 let highScore = 0;
-
-
-
-
 //Рандомное число
 let randomNumber = Math.trunc(Math.random() * 19 + 1);
 //Вывод в консоль чисел
